@@ -14,6 +14,7 @@ public class Aula02 {
         System.out.println("A idade do pacinete X é " +idade);
         System.out.println(falso);
         System.out.println("char "+caractere);
+        System.out.println(salarioFloat);
 
     }
 }
