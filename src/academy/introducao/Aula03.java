@@ -43,6 +43,24 @@ public class Aula03 {
 
         //Not (!) = Negação
 
+        // Operadores de Atribuição
+        // = += -= /= %=
+
+        double bonus = 1800;
+        bonus += 1000; // 2800
+        bonus -= 1000; // 800
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        // ++ --
+        int contador = 0;
+        contador++; // contador = contador + 1;
+        contador--; // contador = contador - 1;
+        ++contador;
+        --contador;
+        System.out.println(contador);
 
 
     }
