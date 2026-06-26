@@ -2,15 +2,14 @@ package academy.introducao;
 
 public class Aula04 {
     public static void main(String[] args) {
-        int idade = 21;
-        boolean isAutorizadoComprarBebida = idade >= 18;
-        if(isAutorizadoComprarBebida) {
-            System.out.printf("Autorizado a comprar bebida alcólica ");
 
-        }
-        if (!isAutorizadoComprarBebida) {
-            // Exemplo usando um operador de negação
-            System.out.printf("Não autorizado a comprar bebida alcólica");
-        }
+        double salario = 3000;
+        String mensagemDoar = "Eu vou doar 500 pro DevDojo";
+        String mensagemNaoDoar = "Ainda não tenho condições, mas vou ter!";
+
+        // Exemplo usando um operador ternário
+        String resultado = salario > 5000  ? mensagemDoar : mensagemNaoDoar;
+        // Deve ser usado quando em situações de condicionais simples
+        System.out.println(resultado);
     }
 }
