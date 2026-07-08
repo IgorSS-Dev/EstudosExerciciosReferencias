@@ -19,6 +19,7 @@ public class Aula07Arrays03 {
         }
         // Exemplo com o foreach
         // Embora seja simples, ele não tem índice
+
         // Não é necessário se preoculpar com o tamanho do array pois num é uma variável local de referência
     }
 }
