@@ -17,5 +17,13 @@ public class Exercicio004 {
         carro2.modelo = "Hatch";
         carro2.ano = 2008;
         System.out.println("Nome: " + carro2.nome + " Modelo: " + carro2.modelo + " Ano: " + carro2.ano);
+
+
+        //
+
+        carro1 = carro2;
+
+        // Exemplo de que uma variável pode referenciar outro objeto;
+
     }
 }
